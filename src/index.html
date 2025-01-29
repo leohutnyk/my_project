@@ -9,7 +9,21 @@
   </head>
   <body>
     <main></main>
+          <div class="container">
+      <form class="group-form">
+        <input
+          type="text"
+          name="query"
+          class="input"
+          placeholder="Search images..."
+          autocomplete="off"
+          required
+        />
+        <button type="submit" class="style-submit">Search</button>
+      </form>
 
+      <ul class="gallery"></ul>
+      <span class="loader">Loading images, please wait...</span>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
