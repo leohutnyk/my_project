@@ -6,4 +6,7 @@
 */
 /* Common styles */
 @import url('./reset.css');
+@import url('./gallery.css');
+@import url('./form.css');
 @import url('./base.css');
+@import url('./loader.css');
